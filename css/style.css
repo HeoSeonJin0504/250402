@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Boldonse&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Hi+Melody&display=swap");
+* {
+  font-family: Noto Sans KR, Hi Melody, sans-serif;
+  font-size: 2vw;
+}
+
+h1 {
+  background-color: hotpink;
+  color: beige;
+  font-size: 3em;
+}
+
+div {
+  margin: 20px;
+  padding: 10px;
+  border: double 5px gray;
+}
+
+div::before {
+    content: '🤣♥';
+}
+
+div::after {
+    content: '😁♬';
+}
+
+/* div:hover {
+  background-color: aqua;
+} */
+
+#todolist,
+#last_li {
+  background-color: burlywood;
+  font-family: Hi Melody, sans-serif;
+}
+
+.point3 {
+  font-family: Hi Melody, sans-serif;
+}
+
+/* #last_li {
+    font-family: sans-serif;
+    color: white;
+} */
+
+a {
+  color: brown;
+}
+
+a:visited {
+  color: black;
+}
+
+[target="_blank"] {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+a:active {
+  background-color: black;
+  color: white;
+}
+
+div > ul {
+  font-style: italic;
+}
+
+div li {
+  color: red;
+}
+
+span {
+  font-size: 0.8em;
+}
+
+a ~ span {
+  font-size: 0.5em;
+}
+
+button:hover {
+  font-weight: 900;;
+}
+
+button:active {
+  background-color: cyan;
+  color: white;
+}
+
+input:focus {
+  color: red;
+}
+
+input:disabled {
+  display: none;
+}
+
+li:first-child {
+  font-size: 1.2em;
+}
+
+li:nth-child(2) {
+  color:blue;
+}
+
+li:last-child {
+  font-size: 1.7em;
+}
